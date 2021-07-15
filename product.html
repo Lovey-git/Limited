@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Products</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
+	
+    <script type="text/javascript" src="js/cart.js"></script>
+</head>
+
+<body>
+	<header>
+	
+		<ul class="nav">
+			<li class="nav-item"><a href="Home.html" >Home</a></li> 
+			<li class="nav-item"><a href="contact.html" >Contacts</a></li>
+			<li class="nav-item"><a href="about_us.html" >About Us</a></li>
+			<li style="float:right" class="nav-item"><a class="active" href="product.html">Products</a>
+		</ul>
+	</header>
+	
+	<main>
+        <div class="mainContainer">
+            <div class="contain">
+                <div class="card" id="item1">
+                    <img src="images/m4.webp">
+                    <div class="title">Mesh Edition - Light Blue</div>
+                    <div class="price">1800</div>
+                    <div>
+                        <label>SIZE: </label>
+                        <select>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                        </select>
+                    </div>
+                    <button onclick="cart(item1)" >Add To Cart</button>
+                </div>
+                
+                <div class="card" id="item2">
+                    <img src="images/m14.webp">
+                    <div class="title">Mesh Edition - White</div>
+                    <div class="price">1800</div>
+                    <div>
+                        <label>SIZE: </label>
+                        <select>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                        </select>
+                    </div>
+                    <button onclick="cart(item2)" >Add To Cart</button>
+            </div>
+            <div class="card" id="item3">
+                <img src="images/m15.webp">
+                <div class="title">Mesh Edition - Orange</div>
+                <div class="price">1800</div>
+                <div>
+                    <label>SIZE: </label>
+                    <select>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+                </div>
+                <button onclick="cart(item3)" >Add To Cart</button>
+        </div>
+        <div class="card" id="item4">
+            <img src="images/m8.webp">
+            <div class="title">Mesh Edition - Yellow</div>
+            <div class="price">1800</div>
+            <div>
+                <label>SIZE: </label>
+                <select>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </select>
+            </div>
+            <button onclick="cart(item4)" >Add To Cart</button>
+    </div>
+    <div class="card" id="item5">
+        <img src="images/m7.webp">
+        <div class="title">Mesh Edition - Navy Blue</div>
+        <div class="price">1800</div>
+        <div>
+            <label>SIZE: </label>
+            <select>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+        </div>
+        <button onclick="cart(item5)" >Add To Cart</button>
+</div>
+<div class="card" id="item6">
+    <img src="images/m16.webp">
+    <div class="title">Mesh Edition - Black&white</div>
+    <div class="price">1800</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item6)" >Add To Cart</button>
+</div>
+
+<div class="card" id="item7">
+    <img src="images/a4.webp">
+    <div class="title">Suede Edition - Gold</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item7)" >Add To Cart</button>
+</div>
+<div class="card" id="item8">
+    <img src="images/a5.webp">
+    <div class="title">Suede Edition - Red</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item8)" >Add To Cart</button>
+</div>
+<div class="card" id="item9">
+    <img src="images/a6.webp">
+    <div class="title">Suede Edition - Pink</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item9)" >Add To Cart</button>
+</div>
+<div class="card" id="item10">
+    <img src="images/l6.webp">
+    <div class="title">Suede Edition - Army Green</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item10)" >Add To Cart</button>
+</div>
+<div class="card" id="item11">
+    <img src="images/l3.webp">
+    <div class="title">Suede Edition - Yellow</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item11)" >Add To Cart</button>
+</div>
+<div class="card" id="item12">
+    <img src="images/l1.webp">
+    <div class="title">Suede Edition - Black</div>
+    <div class="price">2100</div>
+    <div>
+        <label>SIZE: </label>
+        <select>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+    </div>
+    <button onclick="cart(item12)" >Add To Cart</button>
+</div>
+
+    </div>
+
+    <div class="cart" id="cart">
+        <div class="title">CART</div><hr/>
+        <div id="title"></div>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+			<h2 >Follow Us</h2>
+			<a href="https://www.facebook.com" ><i class="fa fa-facebook"></i></a>
+			<a href="https://www.twitter.com" ><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com" ><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linkedin.com" ><i  class="fa fa-linkedin"></i></a>
+			<a a href="https://www.whatsapp.com" ><i class="fa fa-whatsapp"></i></a>
+
+		</div>
+
+		<div>
+		<p class="copyright"> &copy; Copyright all rights reserved</p> 
+			
+		</div>
+    </footer>
+</body>
