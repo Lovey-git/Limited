@@ -12,5 +12,6 @@ git clone https://github.com/Lovey-git/Limited.git
 
 2. Open HTML files using any browser.
 
-## Author 
-- [Lovey Dlamini] (https://www.linkedin.com/in/lovey-bongiwe-dlamini-1710871b3/)
+## Authors
+
+- [Lovey Dlamini](https://www.linkedin.com/in/lovey-bongiwe-dlamini-1710871b3/)
